@@ -1,0 +1,141 @@
+
+.content-section {
+    text-align: center;
+    background-color: #4F75D5;
+    padding: 70px 0 300px;
+    margin-top: -50px; /* Ajustez la valeur pour déplacer la section vers le haut */
+    position: relative;
+    z-index: 1;
+}
+
+.content-section h2 {
+    color: #D1BF9C;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: -20px; /* Ajustez la valeur pour déplacer le titre vers le haut */
+}
+
+.content-section p {
+    color: #D1BF9C;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: -20px; /* Ajustez la valeur pour déplacer le paragraphe vers le haut */
+}
+
+.image-illustration-qsn {
+    max-width: 50%; /* La largeur maximale de l'image est de 100% de son conteneur */
+    height: auto; /* La hauteur s'ajustera automatiquement pour conserver les proportions originales */
+    display: block; /* Supprime les espaces blancs autour de l'image */
+    margin: -250px auto 0; /* Ajustez la valeur négative de margin-top pour remonter l'image */
+    border: 5px solid #D1BF9C; /* Ajoute une bordure marron de 5 pixels */
+    position: relative; /* Ajoutez cette ligne */
+    z-index: 2; /* Ajoutez cette ligne pour placer l'image au-dessus du fond bleu */
+
+}
+
+.additional-section {
+    color: black;
+    max-width: 900px; /* Définissez la largeur maximale souhaitée */
+    margin: 0 auto; /* Centre la section horizontalement */
+    padding: 20px; /* Ajoutez un remplissage pour l'espace intérieur de la section */
+}
+
+
+
+.content-section2 {
+    text-align: center;
+    padding: 70px 0px;
+    margin-top: -30px; /* Ajustez la valeur pour déplacer la section vers le haut */
+    position: relative;
+    z-index: 1;
+}
+
+.content-section2 h2 {
+    color: #D1BF9C;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    margin-top: -20px; /* Ajustez la valeur pour déplacer le titre vers le haut */
+}
+
+.content-section2 p {
+    color: #D1BF9C;
+    font-weight: bold;
+    max-width: 900px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: -20px; /* Ajustez la valeur pour déplacer le paragraphe vers le haut */
+}
+
+.image-row {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-row2 {
+    text-align: center;
+    position: relative; /* Ajout de position relative */
+    z-index: 1; /* Ajout de z-index */
+    
+}
+
+.image-container {
+    display: inline-block;
+    margin: 10px;
+}
+
+.img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+    border: 5px solid #D1BF9C; /* Ajoute une bordure marron de 5 pixels */
+
+}
+
+.p {
+    margin: 0;
+    color: #D1BF9C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold; /* Ajout du style en gras */
+}
+.image-container {
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out; /* Ajout de la transition pour l'effet de survol */
+}
+
+.image-container:hover {
+    transform: scale(1.2) rotate(10deg); /* Zoom de 20% et rotation de 10 degrés lors du survol */
+}
+
+.img {
+    width: 200px;
+    height: 200px; /* Définissez la hauteur souhaitée */
+    display: block;
+    margin-bottom: 5px;
+    border: 5px solid #D1BF9C; /* Ajoute une bordure marron de 5 pixels */
+    object-fit: cover; /* Force l'image à couvrir la boîte tout en préservant son aspect ratio */
+}
+
+
+.p {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #D1BF9C;
+    font-weight: bold; /* Ajout du style en gras */
+}
+
+.image-section {
+    background-color: #4F75D5;
+    padding: 50px 0; /* Réduisez la valeur de padding pour réduire la hauteur du fond bleu */
+    position: relative;
+    z-index: 0;
+}
